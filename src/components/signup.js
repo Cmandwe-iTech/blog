@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../signup.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 function Signup() {
   const navigate = useNavigate();
   let [user, setusers] = useState({
@@ -83,6 +84,7 @@ function Signup() {
       <button id="login-btn" onClick={submithandler}>
         Signup
       </button>
+      <Link to="/">LogIn</Link>
     </div>
   );
 }

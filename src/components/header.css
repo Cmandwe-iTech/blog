@@ -14,7 +14,6 @@
     height: 90%;
     width: 100%;
     background-color: aquamarine;
-    float: left;
 }
 .header h1{
     margin-left: 50px;
@@ -32,6 +31,7 @@
     height: 150px;
     width: 150px;
     margin: 11px;
+    float: left;
     border: 2px solid skyblue;
      background: silver;
      border-radius: 10px;
