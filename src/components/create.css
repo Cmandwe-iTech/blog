@@ -1,0 +1,33 @@
+#tit{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+#des{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+#pic{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+.posting{
+   margin: 50px auto 0;
+    height: 350px;
+    width: 300px;
+    border: 2px solid skyblue;
+    background: silver;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(13, 2, 54);
+}
+button{
+    margin-top: 10px;
+    padding: 5px auto 0;
+    display: block;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+

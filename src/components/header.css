@@ -1,0 +1,40 @@
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 10%;
+    background: rgb(141, 136, 136);
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.blog-container{
+    height: 90%;
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+}
+.header h1{
+    margin-left: 50px;
+}
+.nav-bar{
+    margin-top: 30px;
+    margin-left: 60%;
+    height: 90%;
+    width: 90%;
+}
+.nav-bar span{
+    margin-right: 100px;
+}
+.postdetails{
+    height: 150px;
+    width: 150px;
+    margin: 11px;
+    border: 2px solid skyblue;
+     background: silver;
+     border-radius: 10px;
+     box-shadow: 5px 5px rgb(13, 2, 54);
+}
+
