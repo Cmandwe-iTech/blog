@@ -5,10 +5,10 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 function Signup() {
   const navigate = useNavigate();
+  let [confirm, setConfirm] = useState("")
   let [user, setusers] = useState({
     email: "",
-    password: "",
-    confirmpassword: "",
+    password: ""
   });
   function submithandler() {
     console.log(user);
@@ -39,10 +39,10 @@ function Signup() {
       return 0;
     } else if (user.password.length > 10) {
       alert("password cannot exceed more than 10 characters");
-    } else if (!user.confirmpassword) {
+    } else if (!confirm) {
       alert("confirmpassword is required");
       return 0;
-    } else if (user.password !== user.confirmpassword) {
+    } else if (user.password !== confirm) {
       alert("password are not matching");
       return 0;
     }
@@ -77,7 +77,7 @@ function Signup() {
           type="text"
           id="pass-input"
           onChange={(e) => {
-            setusers({ ...user, confirmpassword: e.target.value });
+            setConfirm(e.target.value);
           }}
         />
       </div>
