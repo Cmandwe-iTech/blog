@@ -8,7 +8,7 @@ function Login() {
   function submithandler() {
     console.log(details);
     axios
-      .post("http://localhost:4000/login", details)
+      .post("https://blogapp-backend-xfhr.onrender.com/login", details)
       .then((res) => {
         console.log(res.status);
         if (res.status === 200) {

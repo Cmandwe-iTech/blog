@@ -14,7 +14,7 @@ function Signup() {
     console.log(user);
     if (validate(user)) {
       axios
-        .post("http://localhost:4000/register", user)
+        .post("https://blogapp-backend-xfhr.onrender.com/register", user)
         .then((res) => {
           console.log(res.status);
           if (res.status === 200) {

@@ -13,7 +13,7 @@ function Header() {
        authorization:token
       }
    }
-   axios.get("http://localhost:4000/posts",config).then((res)=>{
+   axios.get("https://blogapp-backend-xfhr.onrender.com/posts",config).then((res)=>{
     setdet(res.data.user);
 })
 },[])

@@ -14,7 +14,7 @@ function Create(){
         authorization:token
        }
     }
-  axios.post("http://localhost:4000/posts",blog, config).then((res)=>{
+  axios.post("https://blogapp-backend-xfhr.onrender.com/posts",blog, config).then((res)=>{
     if (res.status === 200) {
       alert("blog create successfully")
       navigate("/home")
