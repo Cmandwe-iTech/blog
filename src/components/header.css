@@ -37,4 +37,11 @@
      border-radius: 10px;
      box-shadow: 5px 5px rgb(13, 2, 54);
 }
-
+.logout:hover{
+  cursor: pointer;
+  color: aqua;
+}
+.home:hover{
+    cursor: pointer;
+    color: aqua;   
+}

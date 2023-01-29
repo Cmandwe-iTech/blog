@@ -27,13 +27,13 @@ function Header() {
       <div className="header">
       <h1>BlogApp</h1>
         <div className="nav-bar">
-          <span>
+          <span className="home">
             Home
           </span>
           <span>
             <Link to="/create">Create</Link>
           </span>
-          <span onClick={logouthandler}>
+          <span className="logout" onClick={logouthandler}>
             Logout
           </span>
         </div>
